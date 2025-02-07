@@ -265,5 +265,17 @@ Create defined permissions for roles
     - update
     - patch
 {{- end }}
+{{- if eq $resource "helmreleases" }}
+- apiGroups:
+    - helm.toolkit.fluxcd.io
+  resources:
+    - helmreleases
+  verbs:
+    - get
+    - watch
+    - list
+    - update
+    - patch
+{{- end }}
 {{- end }}
 {{- end }}

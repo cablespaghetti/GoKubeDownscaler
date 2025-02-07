@@ -78,6 +78,8 @@ These are the resources the Downscaler can scale:
   - sets the replica count to the [downscale replicas](#downscale-replicas)
 - <span id="prometheuses">Prometheuses</span>:
   - sets the replica count to the [downscale replicas](#downscale-replicas)
+- <span id="helmreleases">HelmReleases</span>:
+  - sets the suspend property to true
 
 ## Installation
 
