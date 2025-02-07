@@ -4,6 +4,7 @@ go 1.23.4
 
 require (
 	github.com/argoproj/argo-rollouts v1.7.2
+	github.com/fluxcd/helm-controller/api v1.1.0
 	github.com/kedacore/keda/v2 v2.16.1
 	github.com/prometheus-operator/prometheus-operator/pkg/apis/monitoring v0.79.2
 	github.com/prometheus-operator/prometheus-operator/pkg/client v0.79.2
@@ -12,6 +13,7 @@ require (
 	k8s.io/api v0.32.1
 	k8s.io/apimachinery v0.32.1
 	k8s.io/client-go v0.32.1
+	sigs.k8s.io/controller-runtime v0.19.4
 )
 
 require (
@@ -21,7 +23,6 @@ require (
 	github.com/emicklei/go-restful/v3 v3.12.1 // indirect
 	github.com/evanphx/json-patch/v5 v5.9.0 // indirect
 	github.com/expr-lang/expr v1.16.9 // indirect
-	github.com/fluxcd/helm-controller/api v1.1.0 // indirect
 	github.com/fluxcd/pkg/apis/kustomize v1.6.1 // indirect
 	github.com/fluxcd/pkg/apis/meta v1.6.1 // indirect
 	github.com/fsnotify/fsnotify v1.8.0 // indirect
@@ -71,7 +72,6 @@ require (
 	k8s.io/kube-openapi v0.0.0-20241212222426-2c72e554b1e7 // indirect
 	k8s.io/utils v0.0.0-20241210054802-24370beab758 // indirect
 	knative.dev/pkg v0.0.0-20250110150618-accfe3649188 // indirect
-	sigs.k8s.io/controller-runtime v0.19.4 // indirect
 	sigs.k8s.io/json v0.0.0-20241014173422-cfa47c3a1cc8 // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.5.0 // indirect
 	sigs.k8s.io/yaml v1.4.0 // indirect
